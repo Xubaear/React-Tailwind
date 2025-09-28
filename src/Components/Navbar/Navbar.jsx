@@ -14,7 +14,7 @@ const navLinks = [
 const Navbar = () => {
 
     const [open, setOpen]= useState(false)
-     const links = navLinks.map(route =><li className='px-4 lg:mr-10 hover:bg-amber-400'><a href={route.path}>{route.name}</a></li>)
+     const links = navLinks.map(route =><li className='px-4 lg:mr-10 hover:bg-amber-400 md:hover:bg-transparent'><a href={route.path}>{route.name}</a></li>)
     return (
         <nav className='flex justify-between mx-10 mt-7' >
            
@@ -28,7 +28,7 @@ const Navbar = () => {
                  bg-amber-200  text-black p-2`}>
                 {links}
              </ul>
-            <h3 className='ml-4'>My Navbar</h3>
+            <h3 className='ml-4 text-4xl'>X - Gym</h3>
            </span>
 
 

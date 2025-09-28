@@ -3,6 +3,7 @@
     "id": 1,
     "plan": "Basic",
     "price": "$20/month",
+    "description": "Perfect for beginners who want access to essential gym facilities.",
     "features": [
       "Access to gym equipment",
       "Locker facility",
@@ -15,6 +16,7 @@
     "id": 2,
     "plan": "Standard",
     "price": "$40/month",
+    "description": "Great for regular gym-goers who enjoy group activities and extra perks.",
     "features": [
       "All Basic features",
       "Group fitness classes",
@@ -28,6 +30,7 @@
     "id": 3,
     "plan": "Premium",
     "price": "$70/month",
+    "description": "Best for fitness enthusiasts who want a complete gym and wellness experience.",
     "features": [
       "All Standard features",
       "Personal trainer (2 sessions/month)",
