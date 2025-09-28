@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "plan": "Basic",
+    "price": "$20/month",
+    "features": [
+      "Access to gym equipment",
+      "Locker facility",
+      "1 fitness assessment",
+      "Open gym hours",
+      "Access to mobile app for workout tracking"
+    ]
+  },
+  {
+    "id": 2,
+    "plan": "Standard",
+    "price": "$40/month",
+    "features": [
+      "All Basic features",
+      "Group fitness classes",
+      "Free protein shake weekly",
+      "Sauna access",
+      "2 guest passes per month",
+      "Discounts on supplements"
+    ]
+  },
+  {
+    "id": 3,
+    "plan": "Premium",
+    "price": "$70/month",
+    "features": [
+      "All Standard features",
+      "Personal trainer (2 sessions/month)",
+      "Unlimited guest passes",
+      "Nutrition consultation",
+      "Priority booking for classes",
+      "Free gym merchandise kit",
+      "Access to premium workout programs"
+    ]
+  }
+]

@@ -14,16 +14,18 @@ const navLinks = [
 const Navbar = () => {
 
     const [open, setOpen]= useState(false)
-     const links = navLinks.map(route =><li className='mr-10'><a href={route.path}>{route.name}</a></li>)
+     const links = navLinks.map(route =><li className='px-4 lg:mr-10 hover:bg-amber-400'><a href={route.path}>{route.name}</a></li>)
     return (
-        <nav className='flex justify-between mx-10'>
+        <nav className='flex justify-between mx-10 mt-7' >
            
            <span className='flex ' onClick={()=> setOpen(!open)}>
             {
             open ? <X className='md:hidden'></X>: <Menu className='md:hidden'></Menu>
            }
              
-             <ul className='md:hidden'>
+             <ul className={`md:hidden absolute duration-1000
+                ${open ? 'top-14' : '-top-73 '}
+                 bg-amber-200  text-black p-2`}>
                 {links}
              </ul>
             <h3 className='ml-4'>My Navbar</h3>
@@ -36,7 +38,7 @@ const Navbar = () => {
                 }
             </ul>
 
-            <button>Sign In</button>
+            <button className='bg-amber-300 text-black w-[80px] h-[30px] rounded-sm hover:bg-amber-500'>Sign In</button>
         </nav>
     );
 };
