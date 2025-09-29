@@ -8,6 +8,7 @@ const PricingCard = ({pricing}) => {
             {/* Card header */}
             <div >
                 <h1 className='text-5xl text-cyan-400 font-bold'>{pricing.plan} </h1>
+
                 <h4 className='text-3xl'>{pricing.price}</h4>
             </div>
 

@@ -28,7 +28,7 @@ const Navbar = () => {
                  bg-amber-200  text-black p-2`}>
                 {links}
              </ul>
-            <h3 className='ml-4 text-4xl'>X - Gym</h3>
+            <h3 className='ml-4 text-6xl bg-green-600 text-amber-800 font-extrabold w-[240px]  h-[70px] text-center rounded-sm animate-bounce'>X - Gym</h3>
            </span>
 
 
